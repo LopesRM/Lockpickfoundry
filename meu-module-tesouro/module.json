@@ -1,21 +1,16 @@
 {
-  "id": "meu-modulo-tesouro",
+  "id": "meu-module-tesouro",
   "title": "Sistema de Tesouros e Mercadores Dinâmicos",
-  "description": "Adiciona mecânicas de lockpick, barganha e mercadores do mercado negro.",
+  "description": "Seu sistema de lockpick e tesouros.",
   "version": "1.0.0",
-  "library": false,
-  "manifest": "", 
-  "download": "",
-  "authors": [
-    {
-      "name": "R.Lopes",
-      "discord": "cdwwhite"
-    }
+  "author": "Rafha",
+  "manifest": "https://raw.githubusercontent.com/LopesRM/Lockpickfoundry/main/meu-module-tesouro/module.json",
+  "download": "https://github.com/LopesRM/Lockpickfoundry/archive/refs/heads/main.zip",
+  "scripts": [
+    "json/main.js"
   ],
   "compatibility": {
     "minimum": "11",
     "verified": "11"
-  },
-  "esmodules": ["scripts/main.js"],
-  "styles": ["styles/module.css"]
+  }
 }
